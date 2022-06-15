@@ -1,0 +1,142 @@
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,*/
+/*  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',*/
+/*  'Segoe UI Symbol';*/
+
+/*}*/
+.details-card {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100%;
+
+
+
+}
+.details-card button {
+  margin: 0;
+  border: none;
+  color: #4c4b4b;
+  position: absolute;
+  padding-right: 0;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: transparent;
+
+}
+.details-card button svg {
+  width: 18px;
+  height: 18px;
+  fill: black;
+}
+.remove {
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.details-card:hover .remove {
+  opacity: 1;
+}
+.popup-event .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.popup-event .buttons button {
+  border: none;
+  color: #29771c;
+  background-color: #00f0b5;
+  padding: 5px 10px;
+
+}
+.cancel {
+  background-color: #f61067;
+  color: #f61067;
+}
+.add-manual {
+  border: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  z-index: 2;
+}
+.add-manual svg {
+  stroke: orangered;
+}
+.manual-add {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  border-color: black;
+}
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px whitesmoke;
+  padding-bottom: 10px;
+}
+button.save {
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: lightblue;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 0 8px 8px;
+}
+button.close {
+  border: none;
+  outline: none;
+  transform: rotate(45deg);
+  background: transparent;
+  position: absolute;
+  top: -25px;
+  right: -25px;
+
+}
+button.close svg {
+  stroke: white;
+}
+.el-input,
+textarea {
+  font-size: 14px;
+  min-width: 160px;
+  max-width: 200px;
+  margin-left: auto;
+}
+.info {
+  font-size: 12px;
+  color: grey;
+}
+form {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+.show-slots .vue-portal-target {
+  outline: dashed 1px red;
+  outline-offset: -1px;
+}

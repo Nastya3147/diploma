@@ -1,0 +1,389 @@
+body{
+
+}
+.login {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 40px;
+}
+.login-form {
+  width: 290px;
+}
+.forgot-password {
+  margin-top: 10px;
+}
+
+
+
+.b-button--primary {
+  background: rgb(0, 124, 137);
+  border-color: rgb(0, 124, 137);
+
+
+}
+.b-button--primary:hover,
+.b-button--primary.active,
+.b-button--primary:focus {
+  background: greenyellow;
+  border-color:greenyellow;
+}
+.login .b-input__inner:hover {
+  border-color: rgb(0, 124, 137);
+}
+.login .b-input__prefix {
+  background: rgb(000, 237, 234);
+  left: 0;
+  height: calc(100% - 2px);
+  left: 1px;
+  top: 1px;
+  border-radius: 3px;
+
+}
+.b-input__icon {
+  width: 30px;
+}
+.login .b-input input {
+  padding-left: 35px;
+}
+.login .b-card {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+h2 {
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  padding-bottom: 20px;
+}
+a {
+  color:rgb(0, 124, 137);
+  text-decoration: none;
+
+}
+a:hover,
+a:active,
+a:focus {
+  color: red;
+}
+.login .b-card {
+  width: 340px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125em;
+  line-height: 1.3;
+}
+.b-calendar {
+  display: flex;
+  align-items: center;
+  margin: 2.5em 0;
+}
+.b-calendar__information {
+  background-color: rgba(0, 123, 255, 0.2);
+  border-radius: 1.2rem 0 0 1.2rem;
+  height: 100%;
+}
+.b-calendar__information .today {
+  flex-direction: column;
+  padding-top: 3em;
+}
+.b-calendar__information .today .weekDay {
+  font-size: 1.2em;
+  font-weight: 100;
+  padding-bottom: 0.5em;
+}
+.b-calendar__information .today .day {
+  font-size: 5.5em;
+  font-weight: 600;
+  line-height: 1;
+}
+.b-calendar__information .today .month {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1;
+}
+.b-calendar__calendar {
+  min-height: 40rem;
+}
+.b-calendar__header {
+  margin-bottom: 2rem;
+}
+.b-calendar__header .month {
+  font-size: 1.25em;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+.b-calendar__header .year {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.b-calendar__header .arrow {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.b-calendar__header .arrow:hover {
+  cursor: pointer;
+}
+.b-calendar__header .arrow-left i {
+  transform: translateX(-10%);
+}
+.b-calendar__header .arrow-right i {
+  transform: translateX(10%);
+}
+.b-calendar__weekdays {
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+.b-calendar__weekdays .weekday {
+  width: calc(100% / 7);
+  padding: 0.25rem 0.5rem;
+}
+.b-calendar__dates {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.b-calendar__dates:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+}
+.b-calendar__dates .date {
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: 200;
+  min-height: 4.5rem;
+  padding: 0.25rem 0.5rem;
+  position: relative;
+  width: calc(100% / 7);
+}
+.b-calendar__dates .date.blank {
+  background-color: rgba(0, 0, 0, 0.02);
+  color: rgba(0, 0, 0, 0.2);
+}
+.b-calendar__dates .date.no-border-right {
+  border-right: none;
+}
+.b-calendar__dates .date.today {
+  background-color: rgba(0, 123, 255, 0.2);
+}
+.b-calendar__dates .date .weekday {
+  display: none;
+}
+.b-calendar__dates .date .additional {
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0.5rem;
+}
+.b-calendar__dates .date .additional .year {
+  padding-right: 0.25rem;
+  font-size: 0.75em;
+}
+.b-footer {
+  padding: 15px 0;
+}
+@media (max-width: 768px) {
+  .b-calendar__information {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+  }
+  .b-calendar__information .today {
+    padding-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .b-calendar__weekdays {
+    display: none;
+  }
+  .b-calendar__dates .date {
+    width: 100%;
+    text-align: left !important;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+  }
+  .b-calendar__dates .date.blank {
+    display: none;
+  }
+  .b-calendar__dates .date .weekday {
+    display: block;
+    margin-left: 0.25rem;
+  }
+}
+.block {
+  position: fixed;
+  bottom: 0;
+  /*left: 50px;*/
+  z-index: 9998;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px lightskyblue inset, 0 0 0 0 lightskyblue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+}
+.block:hover {
+  box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+  color: #F137A6;
+}
+._block {
+  width:110px;
+  height:50px;
+  background:#f1f1f1;
+  float:left;
+  margin: 0 15px 15px 0;
+  text-align:center;
+  padding: 10px;
+}
+.hidden-menu {
+
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #2b343c;
+  height: 100%;
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu li a {text-decoration: none;   font-size:35px ;color:#cacaca;}
+.hidden-menu li a:hover {color:#fff;}
+/*скрываем инпут чекбокс*/
+.hidden-menu-ticker {
+  display: none;
+}
+/*общие стили значка-гамбургера, самого лэйбла*/
+.btn-menu {
+  color: #fff;
+  /*background-color: #fff;*/
+  padding: 2px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 20px;
+
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+/*общие стили полосок*/
+.btn-menu span {
+  display: block;
+  height: 2px;
+  background-color: #2b343c;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+/*прибиваем к верху лэйбла первую полоску*/
+.btn-menu span.first {
+  margin-top: 0;
+}
+/*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+  background-color: #2b343c;
+}
+/*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 7px;
+  /*background-color: #fff;*/
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -7px;
+  /*background-color: #fff;*/
+}
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: normal;
+}
+.double-border-button {
+
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+  background-image: url("../assets/gr.png");
+}
+.double-border-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: .4s;
+}
+.double-border-button:hover:after {
+  border-color: #f1c40f;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
